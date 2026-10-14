@@ -1,0 +1,23 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+myvenv/
+ytvenv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated transcript and vector database
+transcript.txt
+faiss_index/
+
+# Logs and local secrets
+*.log
+secrets/
